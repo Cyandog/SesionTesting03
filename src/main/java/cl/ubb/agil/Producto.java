@@ -37,8 +37,7 @@ public class Producto {
 		if(stock<stock_minimo)
 			return true;
 		else
-			return false;
-		
+			return false;	
 	}
 
 	public int getStockFaltante() {
